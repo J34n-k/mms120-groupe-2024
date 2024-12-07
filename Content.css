@@ -296,8 +296,9 @@ th, td {
 
 .horizontal-list li {
     flex: 1;
-    margin: 0 10px;
-    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
     color: #d7593b; 
@@ -332,6 +333,7 @@ th, td {
     margin-left: 100;
     margin-right: 100;
 }
+
 
 /*DISRUPTIONS IN TRADITIONAL DATING*/
 
