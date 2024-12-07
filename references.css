@@ -48,36 +48,6 @@ hr.rounded {
   border-radius: 3px;
 }
 
-/* Nav Bar Header */
-header {
-  padding: 25px 25px;
-  background-color: #e65334;
-  display: flex;
-  justify-content: space-between;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  color: white;
-}
-
-nav {
-  display: flex;
-  gap: 40px;
-}
-
-nav a {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  color: white;
-  text-decoration: none;
-}
-
-.topic {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: left;
-  color: #fff;
-}
-
 
 /* Nav Bar Header */
 header {
