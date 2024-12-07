@@ -224,6 +224,14 @@ nav a {
     padding-top: 0;
 }
 
+.disp-tech h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #d7593b;
+    font-size: 32.3px;
+    padding-top: 0;
+    text-align: center;
+}
+
 .dispcon p{
     font-family: 'Open Sans', sans-serif;
     color: #d7593b; 
@@ -232,6 +240,29 @@ nav a {
     text-indent: 10%;
     text-align: justify;
     text-justify: inter-word;
+}
+
+.{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.introcon {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.introcon img{
+    width: 100%
+}
+
+.introcon h2{
+    font-family: 'Poppins', sans-serif;
+    color: #d7593b;
+    font-size: 62px;
+    padding-top: 0;
 }
 
 /*TRADITIONAL IN-PERSON DATING*/
@@ -260,7 +291,7 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 
-.left {
+.left-text {
     text-align: left;
 }
 
@@ -296,8 +327,8 @@ th, td {
 
 .horizontal-list li {
     flex: 1;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 20px;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
@@ -330,10 +361,60 @@ th, td {
 
 .row-2 {
     margin-top:0;
-    margin-left: 100;
+    margin-left: 130;
     margin-right: 100;
+    display: flex; 
+    justify-content:space-evenly;
 }
 
+.emergence{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.emergence-content {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.emergence-content img{
+    width: 80%
+}
+
+.emergence-content h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #d7593b;
+    font-size: 62px;
+    padding-top: 0;
+}
+
+.emergence-content h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #d7593b;
+    font-size: 32.3px;
+    padding-top: 0;
+    text-align: center;
+}
+
+.dating-mid {
+    text-align: justify;
+}
+
+.dating-mid p {
+    font-family: 'Open Sans', sans-serif;
+    color: #d7593b;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    width: 80%;
+    margin-top: 5px;
+    text-indent: 10%;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
 
 /*DISRUPTIONS IN TRADITIONAL DATING*/
 
