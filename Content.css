@@ -492,3 +492,65 @@ th, td {
     width: 80%;
     margin-top: 5px; 
 }
+
+
+/* CONCLUSION */ 
+
+.row{
+    margin-top:5%;
+    display: flex; 
+    justify-content: space-between;
+  }
+  
+  .conclusion{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  .conclurow {
+    flex-basis: 48%;
+    padding: 0px 2px;
+  }
+  
+  .conclurow img{
+    width: 100%
+  }
+  
+  .conclusion h2{
+    font-family: 'Poppins', sans-serif;
+    color: #d7593b;
+    font-size: 62px;
+    padding-top: 0;
+    text-align: center;
+  
+  }
+  
+  .conclurow p{
+    font-family: 'Open Sans', sans-serif;
+    color: #d7593b; 
+    font-size: 20px;
+    padding: 15px 0 25px;
+    text-indent: 10%;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  .conclusion-2{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  
+  .conclupara p{
+    font-family: 'Open Sans', sans-serif;
+    color: #d7593b; 
+    font-size: 20px;
+    padding: 15px 0 25px;
+    text-indent: 10%;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
