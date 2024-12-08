@@ -38,6 +38,10 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 .header-logo {
     width: 50px;
     align-items: left;
