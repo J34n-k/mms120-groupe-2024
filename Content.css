@@ -600,4 +600,37 @@ th, td {
     text-align: justify;
     text-justify: inter-word;
   }
+
+footer {
+    background-color: #94aad3;
+    color:#0c408b;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0 20px;
+}
+
+.footer-content li {
+    display: block;
+    font-size: 1rem;
+}
   
