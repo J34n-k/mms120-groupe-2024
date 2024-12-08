@@ -49,30 +49,47 @@ hr.rounded {
 /* Nav Bar Header */
 header {
     padding: 25px 25px;
+    width: 100%;
+    height: 85px;
     background-color: #e65334;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    box-sizing: border-box
 }
 
 nav {
     display: flex;
-    gap: 40px;
+    gap: 35px;
 }
 
 nav a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: white;
     text-decoration: none;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
+.header-logo {
+    width: 50px;
+    align-items: left;
+}
+
 .topic {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bold;
-    text-align: left;
+    position: fixed;
+    left: 100px;
     color: #fff;
 }
 
