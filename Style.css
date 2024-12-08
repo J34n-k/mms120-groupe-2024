@@ -11,29 +11,43 @@ body {
 
 header {
     padding: 25px 25px;
-    background-color: #d7593b;
+    width: 100%;
+    height: 85px;
+    background-color: #e65334;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    box-sizing: border-box
 }
 
 nav {
     display: flex;
-    gap: 40px;
+    gap: 35px;
 }
 
 nav a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: white;
     text-decoration: none;
 }
 
+.header-logo {
+    width: 50px;
+    align-items: left;
+}
+
 .topic {
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bold;
-    text-align: left;
+    position: fixed;
+    left: 100px;
     color: #fff;
 }
 
@@ -43,7 +57,7 @@ nav a {
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    height: 300px;
+    height: 57vh;
     background-image: url('Assets/Header.png');
     background-size: cover;
     background-position: top center;
@@ -58,28 +72,40 @@ main {
 
 main h1 {
     position: relative;
-    top: 100px;
-    left: 550px;
-    font-size: 30px;
-    color: #f1edea;
+    top: 210px;
+    left: 610px;
+    font-size: 35px;
+    max-width: 60%;
+    color: #580c04;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-shadow: 4px 2px 10px #fff;
 }
 
-main img {
+.phone-image {
     position: relative;
-    top: -50px;
+    top: 50px;
     left: 200px;
     width: 200px;
+    z-index: 1;
+}
+
+.logo {
+    position: relative;
+    width: 150px;
+    top: -200px;
+    left: 225px;
 }
 
 .introduction-text {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     color: #d7593b;
-    width: 400px;
+    width: 1000px;
     text-align: justify;
     position: relative;
-    top: -210px;
-    left: 550px;
+    top: -150px;
+    left: 450px;
 }
 
 .introduction-img {
